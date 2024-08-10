@@ -1,0 +1,118 @@
+.two {
+    max-width: 480px;
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    background-color: rgb(103, 103, 243);
+    position: relative;
+    z-index: -1;
+}
+
+.flex {
+    padding: 5%;
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex img {
+    width: 20%;
+}
+
+.flex h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 150%;
+}
+
+.raqam_grid {
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 5%;
+}
+
+.raqam_card1,
+.raqam_card2 {
+    display: flex;
+    align-items: center;
+}
+
+.raqam_con1 {
+    width: 50%;
+    border: 2px solid rgb(161, 161, 238);
+    border-radius: 70px 0 0 70px;
+    padding: 7% 3% 7% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.raqam_con2 {
+    width: 50%;
+    border: 2px solid rgb(161, 161, 238);
+    border-radius: 0 70px 70px 0;
+    padding: 7% 10% 7% 3%;
+}
+
+.raqam_con1 h5,
+.raqam_con2 h5 {
+    color: #FFF;
+    margin-bottom: 5%;
+    font-size: 17px;
+}
+
+.raqam_con1 p,
+.raqam_con2 p {
+    color: #FFF;
+    font-size: 14.8px;
+}
+
+.raqam_card1 div,
+.raqam_card2 div {
+    width: 50%;
+}
+
+.raqam_card1 div h1,
+.raqam_card2 div h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    color: #fff;
+}
+
+.raqam_card1 div h1 {
+    margin-left: 20%;
+}
+
+.raqam_card2 div h1 {
+    margin-left: 60%;
+}
+
+
+@media(width <=385px) {
+    .flex h2 {
+        font-size: 120%;
+    }
+
+    .raqam_card1 div h1,
+    .raqam_card2 div h1 {
+        font-size: 50px;
+    }
+
+    .raqam_con1 h5,
+    .raqam_con2 h5{
+        font-size: 15px;
+    }
+    .raqam_con1 p,
+    .raqam_con2 p{
+        font-size: 13px;
+    }
+}

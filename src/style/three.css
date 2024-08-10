@@ -1,0 +1,27 @@
+.three {
+    background-color: rgb(103, 103, 243);
+    padding: 7% 10% 13%;
+}
+
+.threeCard {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(8, 26, 62, 1.00);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0 70px;
+    padding: 5% 0;
+    margin-bottom: 5%;
+}
+
+@media(width <= 430px){
+    .threeCard {
+        font-size: 90%;
+    }
+}
+@media(width <= 340px){
+    .threeCard {
+        font-size: 80%;
+    }
+}

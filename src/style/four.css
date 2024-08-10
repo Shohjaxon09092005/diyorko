@@ -1,0 +1,26 @@
+.four {
+    background-color: rgb(103, 103, 243);
+    padding: 10% 13% 10%;
+}
+
+.fourCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid rgba(34, 53, 104, 1.00);
+    color: rgb(12, 29, 79);
+    padding-left: 2%;
+    padding-right: 7%;
+    margin-bottom: 7%;
+    font-size: 110%;
+}
+
+.fourCard:nth-of-type(1) {
+    padding: 0 2% 0;
+}
+
+@media(width <=380px) {
+    .fourCard{
+        font-size: 80%;
+    }
+}

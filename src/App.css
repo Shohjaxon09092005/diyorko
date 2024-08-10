@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.link {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
